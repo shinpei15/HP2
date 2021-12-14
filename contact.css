@@ -1,0 +1,34 @@
+.contact-form{
+    height: 500px;
+
+}
+.form{
+    width: 700px;
+    /* margin: 0 auto; */
+    position: relative;
+    margin: 0 auto;
+}
+label{
+    position: absolute;
+    left: 0px;
+}
+.form2{
+    height: 40px;
+}
+label span{
+    position: absolute;
+    left: 200px;
+    width: 40px;
+    color: #FEA96B;
+    font-weight: bold;
+}
+option{
+    background-color: #FEA96B;
+    color: white;
+    font-weight: bold;
+}
+input,textarea,select{
+    position: absolute;
+    left: 350px;
+    width: 350px;
+}

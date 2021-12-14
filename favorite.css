@@ -1,0 +1,41 @@
+.favorite-item{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+}
+.item-img img{
+    width: 300px;
+    padding: 50px 0px;
+}
+.item-text{
+    position: relative;
+    width: 450px;
+    word-break: break-all;
+}
+.item-text h2{
+    text-align: left!important;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.identity{
+    padding-bottom: 40px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.text-right{
+    padding-left: 50px;
+}
+.text-left{
+    padding-right: 50px;
+}
+
+.text p{
+    line-height: 1.3;
+}
