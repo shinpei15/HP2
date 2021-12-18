@@ -51,4 +51,14 @@ input,textarea,select{
     .form input{
         display: block;
     }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    input,textarea,select{
+        margin: 0 auto;
+        width: 250px;
+    }
+
 }
