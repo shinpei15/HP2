@@ -1,21 +1,23 @@
-.contact-form{
+/* .contact-form{
     height: 500px;
 
-}
+} */
 .form{
     width: 700px;
     /* margin: 0 auto; */
-    position: relative;
     margin: 0 auto;
-}
-label{
-    position: absolute;
-    left: 0px;
+    text-align: center;
 }
 .form2{
-    height: 40px;
+    height: 80px;
 }
-label span{
+.form p{
+    position: relative;
+    width: 240px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+.form p span{
     position: absolute;
     left: 200px;
     width: 40px;
@@ -27,8 +29,26 @@ option{
     color: white;
     font-weight: bold;
 }
+.input{
+    height: 30px;
+}
+.textarea{
+    height: 300px;
+}
 input,textarea,select{
-    position: absolute;
-    left: 350px;
-    width: 350px;
+    margin: 0 auto;
+    width: 400px;
+}
+.form-text{
+    height: 350px;
+}
+@media screen and (max-width: 850px){
+    .form label{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .form input{
+        display: block;
+    }
 }
