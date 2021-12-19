@@ -29,6 +29,7 @@
 .header-link ul a{
     text-decoration: none;
 }
+
 .border{
     border-left: solid 2px #FEA96B;
     opacity: 0.8;
@@ -100,7 +101,9 @@ h3{
 .contents{
     width: 900px;
     display: flex;
+    margin: 0 auto;
 }
+
 .footer-logo p{
     text-align: center;
     padding: 50px 0px;
@@ -191,4 +194,64 @@ h3{
     opacity: 0.8;
     padding: 0px 30px;
     color: black;
+}
+.connect{
+    text-align: center;
+}
+.connect a{
+    padding: 10px 15px;
+    color: white;
+    background-color: #FEA96B;
+    border-radius: 30px;
+}
+@media screen and (max-width: 950px){
+    .contents{
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-top{
+        width: 100%;
+    }
+    .content{
+        display: inline-block;
+        width: 300px;
+        }
+}
+@media screen and (max-width: 750px){
+    .header-link{
+        display: none;
+    }
+    .border{
+        padding: 0px;
+        border: hidden;
+    }
+    .footer-top{
+        padding: 0px;
+    }
+    .footer-link{
+        width: 100%;
+        padding-top: 0px;
+    }
+    .footer-link ul{
+        display: block;
+        text-align: center;
+    }
+    .footer-link ul li{
+        display: inline;
+    }
+    .footer-link ul li a{
+        padding:0px 10px;
+
+    }
+}
+@media screen and (max-width: 450px){
+    
+}
+@media screen and (max-width: 350px){
+    .footer-link{
+        display: none;
+    }
+
 }
